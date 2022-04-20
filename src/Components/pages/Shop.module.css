@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerCarousel{
+    background-color: rgba(255, 255, 255, 0.829);
+    color: blue;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.carousel{
+    width: 70%;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.item_Carousel {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    height: 50%;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+}
+
+.info {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Josefin Sans";
+}
+
+.infoName{
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.infoPreco{
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.button_left{
+    display: flex;
+    
+}

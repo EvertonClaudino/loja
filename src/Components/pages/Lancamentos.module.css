@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.lancamento_container {
+    display: flex;
+    background-color: rgba(160, 152, 152, 0.603);
+}
+
+.lacamento_container h1 {
+    text-align: center;
+    font-family: "Josefin Sans";
+    color: black;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+.lacamento_lacamento {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.lacamento_lacamento img {
+    margin: 5px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgb(0, 0, 0);
+
+}
+.lacamentos{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

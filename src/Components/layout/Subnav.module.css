@@ -1,0 +1,14 @@
+.subnav{
+    padding: 0.3em;
+    color: black;
+    background-color: rgb(128, 119, 119);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_Sub {
+    padding-right: 6em;
+    margin: 0;
+}
