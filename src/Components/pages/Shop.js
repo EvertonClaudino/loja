@@ -36,8 +36,8 @@ function Shop() {
                     </div>
                     <div className={stylesC.info}>
                         <span className={stylesC.infoName}>Blusa Cinza com caimento</span>
-                        <span className={stylesC.infoPreco}>39,50EUR</span>
-                        <button className={stylesC.btn} onClick={(event) => buy("Blusa Cinza", 39.50)}>clique aqui</button>
+                        <span className={stylesC.infoPreco}>39,50&euro;</span>
+                        <button className={stylesC.info_btn} onClick={(event) => buy("Blusa Cinza", 39.50)}>Comprar</button>
                     </div>
                 </div>
                 <div className={stylesC.item_Carousel}>
@@ -46,8 +46,8 @@ function Shop() {
                     </div>
                     <div className={stylesC.info}>
                         <span className={stylesC.infoName}>Blusa Cinza Euphoria</span>
-                        <span className={stylesC.infoPreco}>35,90EUR</span>
-                        <button onClick={(event) => buy("Blusa Cinza Euphoria", 35.90)}>clique aqui</button>
+                        <span className={stylesC.infoPreco}>35,90&euro;</span>
+                        <button className={stylesC.info_btn} onClick={(event) => buy("Blusa Cinza Euphoria", 35.90)}>Comprar</button>
                     </div>
                 </div>
                 <div className={stylesC.item_Carousel}>
@@ -56,8 +56,8 @@ function Shop() {
                     </div>
                     <div className={stylesC.info}>
                         <span className={stylesC.infoName}>Jaqueta Preta Element</span>
-                        <span className={stylesC.infoPreco}>50,80EUR</span>
-                        <button onClick={(event) => buy("Jaqueta Preta Element", 50.80)}>clique aqui</button>
+                        <span className={stylesC.infoPreco}>50,80&euro;</span>
+                        <button className={stylesC.info_btn} onClick={(event) => buy("Jaqueta Preta Element", 50.80)}>Comprar</button>
                     </div>
                 </div>
                 <div className={stylesC.item_Carousel}>
@@ -66,8 +66,8 @@ function Shop() {
                     </div>
                     <div className={stylesC.info}>
                         <span className={stylesC.infoName}>Blusa Manga Longa Preta</span>
-                        <span className={stylesC.infoPreco}>28,99EUR</span>
-                        <button onClick={(event) => buy("Blusa Manga Longa Preta", 28.99)}>clique aqui</button>
+                        <span className={stylesC.infoPreco}>28,99&euro;</span>
+                        <button className={stylesC.info_btn} onClick={(event) => buy("Blusa Manga Longa Preta", 28.99)}>Comprar</button>
                     </div>
                 </div>
                 <div className={stylesC.item_Carousel}>
@@ -76,8 +76,8 @@ function Shop() {
                     </div>
                     <div className={stylesC.info}>
                         <span className={stylesC.infoName}>Blusa Basica Branca</span>
-                        <span className={stylesC.infoPreco}>9,99EUR</span>
-                        <button onClick={(event) => buy("Blusa Basica Branca", 9.99)}>clique aqui</button>
+                        <span className={stylesC.infoPreco}>9,99&euro;</span>
+                        <button className={stylesC.info_btn} onClick={(event) => buy("Blusa Basica Branca", 9.99)}>Comprar</button>
                     </div>
                 </div>
             </div>

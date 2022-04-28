@@ -13,9 +13,9 @@
 .lacamento_container h1 {
     text-align: center;
     font-family: "Josefin Sans";
-    color: black;
-    font-weight: 500;
-    text-shadow: 1px 1px 2px black;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    font-weight: 700;
 }
 
 
@@ -26,17 +26,80 @@
     padding: 10px;
 }
 
+.lacamento_lacamento {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
 
 .lacamento_lacamento img {
     margin: 5px;
     width: 250px;
     border-radius: 10px;
-    box-shadow: 3px 3px 20px rgb(0, 0, 0);
 
 }
-.lacamentos{
+
+.lacamentos {
     margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 5px;
+    padding: .50em;
+    border-radius: 10px;
+    box-shadow: 3px 3px 9px rgba(82, 81, 81, 0.678);
+    background-color: rgba(180, 177, 177, 0.24);
+}
+
+.infoName {
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+
+.infoPreco {
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 0, 0);
+}
+
+.infoPreco:hover {
+    color: rgb(153, 0, 0);
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.Comprar_btn {
+    font-family: "Josefin Sans";
+    border-radius: 0.5em;
+    margin: 3px;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.973);
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0.1em 4em;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.lacamentos button:hover {
+    background-color: rgb(255, 255, 0);
+    transition: 0.5s;
+}
+
+.lacamentos button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
 }

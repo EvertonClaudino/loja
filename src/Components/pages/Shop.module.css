@@ -59,3 +59,32 @@
     display: flex;
     
 }
+.info_btn {
+    font-family: "Josefin Sans";
+    border-radius: 0.5em;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.973);
+    cursor: pointer;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0.1em 4em;
+    box-shadow: 8px 8px 3px -2px rgb(0, 0, 0);
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.info button:hover {
+    background-color: rgb(255, 255, 0);
+    transition: 0.5s;
+}
+
+ .info button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
