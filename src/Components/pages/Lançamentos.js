@@ -32,7 +32,7 @@ function Lancamentos() {
     return (
 
         <div className={stylesC.lacamento_container}>
-                <h1>Lançamentos</h1>
+            <h1>Lançamentos</h1>
             <div className={stylesC.lacamento_lacamento}>
 
 
@@ -77,9 +77,9 @@ function Lancamentos() {
                     <img src={tshirt2} alt="Segundo item" />
                     <span className={stylesC.infoName}>Blusa Cinza Euphoria</span>
                     <span className={stylesC.infoPreco}>35,90&euro;</span>
-                    <ButtonComprar />                
-                    
-                    </div>
+                    <ButtonComprar />
+
+                </div>
 
                 <div className={stylesC.lacamentos}>
                     <img src={tshirt3} alt="Terceiro item" />
@@ -124,6 +124,9 @@ function Lancamentos() {
                     <span className={stylesC.infoPreco}>33,87&euro;</span>
                     <ButtonComprar />
                 </div>
+            </div>
+            <div className={stylesC.back_top}>
+                <button className={stylesC.back_top_btn}>Voltar Ao Topo</button>
             </div>
 
         </div>

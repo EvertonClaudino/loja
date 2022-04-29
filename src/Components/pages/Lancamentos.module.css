@@ -103,3 +103,12 @@
     top: 5px;
     left: 5px;
 }
+
+.back_top {
+    position: flex;
+}
+
+.back_top_btn{
+    margin: 20px;
+    justify-items: center;
+}
