@@ -23,7 +23,7 @@ function Lancamentos() {
                     <img src={tshirt1} alt="Primeiro item" />
                     <span className={stylesC.infoName}>Blusa Cinza com caimento</span>
                     <span className={stylesC.infoPreco}>39,50&euro;</span>
-                    <ButtonComprar />
+                    <ButtonComprar name="Blusa Cinza com caimento" price={39.50} />
                 </div>
                 <div className={stylesC.lacamentos}>
                     <img src={tshirt2} alt="Segundo item" />
