@@ -2,7 +2,7 @@ import { type } from '@testing-library/user-event/dist/type';
 import stylesC from './ButtonComprar.module.css';
 
 
-function ButtonComprar() {
+function ButtonComprar(props) {
     var storage = []
 
    function buy(name, price) {
@@ -21,7 +21,7 @@ function ButtonComprar() {
        }
    }
    return(
-    <button className={stylesC.comprar_btn} onClick={(event) => buy("", Number )}>Comprar</button>
+    <button className={stylesC.comprar_btn} onClick={(event) => buy(props.name, props.price )}>Comprar</button>
    )
 }
 
