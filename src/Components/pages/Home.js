@@ -13,11 +13,7 @@ export default function Home() {
         <div className={styles.home_container}>
             <Carousel>
                 <Carousel.Item>
-                    <img
-                        className="d-block"
-                        src={Fundo1}
-                        alt="First slide"
-                    />
+                    <img className="d-block" src={Fundo1} alt="First slide"/>
                     <Carousel.Caption>
                     <Link to ='/Shop'><button className={styles.home_container_btn}>SHOP</button></Link>
                     </Carousel.Caption>

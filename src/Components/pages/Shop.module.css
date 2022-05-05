@@ -8,15 +8,20 @@
     background-color: rgba(255, 255, 255, 0.829);
     color: blue;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     justify-items: center;
 }
 
-.carousel{
-    width: 70%;
+.Carousel{
+    width: 100%;
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
+}
+
+.containerCarousel .Carousel::-webkit-scrollbar{
+    display: none;
 }
 
 .item_Carousel {
@@ -24,6 +29,7 @@
     margin: 10px;
     height: 50%;
 }
+
 
 .image{
     display: flex;
@@ -63,11 +69,22 @@
     cursor: pointer;
     transition: 0.6s;
 }
-
-.button_left{
-    display: flex;
-    
+.buttons_scroll {
+    width: 100%;
+    text-align: center;
 }
+
+.buttons_scroll button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+.buttons_scroll button:first-child img{
+    transform: rotate(180deg);
+
+}
+
 .info_btn {
     font-family: "Josefin Sans";
     border-radius: 0.5em;

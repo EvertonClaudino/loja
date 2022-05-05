@@ -7,12 +7,32 @@ import tshirt5 from '../../img/t-shirt/t-shirt5.png';
 
 import ButtonComprar from '../buttonC/ButtonComprar'
 
+import Arrow from '../../img/arrow/arrow.png';
+import { useRef } from 'react';
+
+
+
+
 
 function Shop() {
 
+    const carousel = useRef(null)
+
+    const handleLeftClick = (e) =>{
+        e.preventDefault();
+        console.log(carousel.current.offsetWidth)
+        carousel.current.scrollLeft -= carousel.current.offsetWidth
+    }
+
+    const handleRightClick = (e) =>{
+        e.preventDefault();
+        console.log(carousel.current.offsetWidth)
+        carousel.current.scrollLeft += carousel.current.offsetWidth
+    }
+
     return (
         <div className={stylesC.containerCarousel}>
-            <div className={stylesC.carousel}>
+            <div className={stylesC.Carousel} ref={carousel}>
                 <div className={stylesC.item_Carousel}>
                     <div className={stylesC.image}>
                         <img src={tshirt1} alt='T-Shirt 1' />
@@ -63,7 +83,13 @@ function Shop() {
                     </div>
                 </div>
             </div>
+            <div className={stylesC.buttons_scroll}>
+            <button onClick={handleLeftClick}><img src={Arrow} alt='Seta'/></button>
+            <button onClick={handleRightClick}><img src={Arrow} alt='Seta'/></button>
+            </div>
+
         </div>
+
     )
 
 }
